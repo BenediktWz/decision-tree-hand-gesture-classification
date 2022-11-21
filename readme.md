@@ -2,7 +2,7 @@
 
 In this project I implemented the ID3 decision tree algorithm from scratch and created a model that was able to predict hand gestures based on muscle activity. 
 
-![grafik](https://user-images.githubusercontent.com/115760050/202943735-61b5ff79-a3c4-47c3-ae40-8d0cc48035cd.png)
+![grafik](https://user-images.githubusercontent.com/115760050/202944847-d408b360-328d-454a-942a-28eaf2272b1f.png)
 
 The overall design of my algorithm follows object-oriented programming principles. I introduced two classes. First, the class DecisionTreeClassifier which includes all parameters and methods to build a tree and make a prediction with it. One instance of that class can be seen as one decision tree. The second class is called TreeNode and every instance represents a node of a decision tree. One DecisionTreeClassifier instance contains multiple TreeNode instances. The algorithm takes a dataset as input and returns a decision tree. The dataset has to be a multidimensional, homogeneous array of fixed-size items (e.g. numpy.ndarray) with decimal number values as items (e.g. numpy.float64). The decision tree is a list of connected TreeNode instances.
 
